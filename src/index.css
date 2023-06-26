@@ -40,6 +40,13 @@
   background-origin: border-box;
   background-clip: padding-box,border-box;
 }
+.cssBorderColor:hover {
+  color: #fff;
+  border: 4px double transparent;
+  background-image: linear-gradient(#0a192f,#0a192f),radial-gradient(circle at left top,#1266d8,#fff);
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
 
 .textColor {
 
