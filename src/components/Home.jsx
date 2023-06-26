@@ -11,7 +11,9 @@ const Home = () => {
               <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=20&pause=1000&vCenter=true&width=435&height=60&lines=Hi,+My+Name+is;I'm+a" alt="Typing SVG" />
 
              <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=40&pause=1000&vCenter=true&width=435&height=60&lines=EM+Nayon;Frontend+Developer" alt="Typing SVG" />
-              <p className="text-[#8892b0] py-4 max-w-[700px] font-thin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum itaque accusantium corporis doloremque iure incidunt numquam porro nesciunt vel quibusdam.</p>
+              <p className="text-[#8892b0] py-4 max-w-[700px] font-thin">Welcome to my portfolio, where expertise in frontend development meets creativity and innovation. I am an expert frontend developer with a passion for crafting remarkable user interfaces that leave a lasting impression.</p>
+              <p className="text-[#8892b0] py-4 max-w-[700px] font-thin">Collaboration is at the heart of my approach. I thrive on working closely with designers, UX specialists, and backend developers to transform ideas into tangible realities</p>
+              <p className="text-[#8892b0] py-4 max-w-[700px] font-thin">I invite you to explore my portfolio and witness the diverse range of projects I have worked on</p>
             </div>  
           <div className="col-span-4 row-end-1  w-80 ">
             <img src={logo} alt="" className="w-80 hover:scale-105 ease-in duration-500 border border-pink-400 btnColor"/>  
