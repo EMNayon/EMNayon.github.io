@@ -26,7 +26,7 @@ const About = () => {
                   <p className='text-white font-thin text-sm'>Years experience</p>
                 </div>  
                 <div className='p-4'>
-                  <h1 className="text-4xl font-gfs">05<span className="text-emerald-500 text-4xl font-semibold">+</span></h1>
+                  <h1 className="text-4xl font-gfs">06<span className="text-emerald-500 text-4xl font-semibold">+</span></h1>
                   <p className='text-white font-thin text-sm'>Completed Projects</p>
                 </div>
                 <div className='p-4'>
@@ -34,7 +34,7 @@ const About = () => {
                   <p className='text-white font-thin text-sm'>Collaborations Project</p>
                 </div>  
                 <div className='p-4'>
-                  <h1 className="text-4xl font-gfs">01<span className="text-emerald-500 text-4xl font-semibold">+</span></h1>
+                  <h1 className="text-4xl font-gfs">02<span className="text-emerald-500 text-4xl font-semibold">+</span></h1>
                   <p className='text-white font-thin text-sm'>Companies Work</p>
                 </div>  
                  
