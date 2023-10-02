@@ -24,29 +24,29 @@ const Navbar = () => {
   return (
     <div className=" fixed h-[80px] flex flex-col justify-between items-center px-4 bg-[#0a192f] text-gray-300 top-[30%] right-0">
       {/* menu */}
-      <ul className="hidden md:flex flex-col ">
-        <li className="py-3 hover:scale-150 ease-in duration-500">
+      <ul className="flex-col hidden md:flex ">
+        <li className="py-3 duration-500 ease-in hover:scale-150">
           <Link to="home" smooth={true} duration={500}>
             <FaHome size={30} />
           </Link>
         </li>
 
-        <li className="py-3 hover:scale-150 ease-in duration-500">
+        <li className="py-3 duration-500 ease-in hover:scale-150">
           <Link to="about" smooth={true} duration={500}>
             <FaUserSecret size={30} />
           </Link>
         </li>
-        <li className="py-3 hover:scale-150 ease-in duration-500">
+        <li className="py-3 duration-500 ease-in hover:scale-150">
           <Link to="skills" smooth={true} duration={500}>
             <GiSkills size={30} />
           </Link>
         </li>
-        <li className="py-3 hover:scale-150 ease-in duration-500">
+        <li className="py-3 duration-500 ease-in hover:scale-150">
           <Link to="work" smooth={true} duration={500}>
             <SiPolywork size={30} />
           </Link>
         </li>
-        <li className="py-3 hover:scale-150 ease-in duration-500">
+        <li className="py-3 duration-500 ease-in hover:scale-150">
           <Link to="contact" smooth={true} duration={500}>
             <IoIosContacts size={30} />
           </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="z-10 md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="https://www.linkedin.com/in/emnayon/"
               target="blank"
             >
@@ -111,7 +111,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="https://github.com/EMNayon"
               target="blank"
             >
@@ -120,7 +120,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="/"
             >
               Email <HiOutlineMail size={30} />
@@ -128,8 +128,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="../assets/resume/emnayon_resume.pdf"
+              className="flex items-center justify-between w-full text-gray-300"
+              target="_blank"
+              href="https://drive.google.com/drive/folders/1v58_hFsMCkWgswoqb10vIXGN2OMQKQIL?usp=sharing"
               download={true}
             >
               Resume <BsFillPersonLinesFill size={30} />
